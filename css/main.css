@@ -84,13 +84,14 @@ h1 {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
   }
 
   .img-flex {
-  padding: 4rem 1rem;
+    padding: 4rem 1rem;
   }
 
   .wrap {
@@ -112,29 +113,31 @@ h1 {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
   }
 
   .img-flex {
-  padding: 2rem 1rem;
+    padding: 2rem 1rem;
   }
 
   .img {
-  max-width: 50em;
-  display: block;
+    max-width: 50em;
+    display: block;
   }
 
   .wrap {
-  flex-wrap: wrap;
-  display: flex;
-  align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
   }
@@ -153,6 +156,5 @@ h1 {
   section {
     padding: 0 8rem;
   }
-
 
 }
